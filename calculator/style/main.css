@@ -1,0 +1,88 @@
+button{
+    border: solid 1px #CACACA;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.Calculator{
+    width: 650px;
+    height: 520px;
+    border-radius: 15px;
+    border: solid 5px #000000;
+    background-color: #404040;
+    padding: 10px;
+}
+
+.Numpad{
+    display: grid;
+    /* Line width */
+    grid-template-columns: 80px 80px 80px;
+    /* Row height */
+    grid-template-rows: 80px 80px 80px 80px;
+    /* Declare the Gap */
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+.Screen{
+    width: 320px;
+    height: 100px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: #507080;
+    border: solid 5px #000000;
+}
+.Display{
+    color: #E6EDFF;
+    font-size: 4rem;
+    line-height: 100px;
+    font-family: "Gill Sans", sans-serif;
+    text-align: right;
+    overflow-x: auto;
+}
+.Funcpad{
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: -355px;
+    margin-left: 350px;
+}
+.Extpad{
+    display: grid;
+    grid-template-columns: 80px;
+    grid-template-rows: 80px 80px 80px 80px;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: -350px;
+    margin-left: 530px;
+}
+
+#Dbg{
+    color: #FFFFFF;
+    background-color: #FC0000;
+}
+
+#Sin{
+    color: #535353;
+    font-weight: bolder;
+}
+#Cos{
+    color: #535353;
+    font-weight: bolder;
+}
+
+/* event */
+button:hover{
+    background-color: #B0E0FF;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#Dbg:hover{
+    background-color: #FF9090;
+    transition: .5s;
+}
